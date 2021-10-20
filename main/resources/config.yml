@@ -1,0 +1,99 @@
+#EpicChat configuration panel
+
+#---------------------------------
+#|                               |
+#|        Death Messages         |
+#|                               |
+#---------------------------------
+# Use a custom death message
+
+# Should EpicChat use the custom death message?
+enableCustomDeathMessages: true
+
+# This will only customise the first part of the death message
+# As the rest is the vanilla minecraft messages.
+customDeathMessage: "&c☠ &7"
+
+
+#---------------------------------
+#|                               |
+#|         Join Messages         |
+#|                               |
+#---------------------------------
+
+# Should EpicChat use the custom death message?
+enableCustomJoinMessages: true
+
+# This will only customise the first part of the death message
+# As the rest is the vanilla minecraft messages.
+customJoinMessage: "has joined the game!"
+
+# Write a message before the player name in the join message, leave blank to disable
+preMessageName: "&c"
+
+
+#---------------------------------
+#|                               |
+#|        Leave Messages         |
+#|                               |
+#---------------------------------
+
+# Should EpicChat use the custom death message?
+enableCustomLeaveMessages: true
+
+# This will only customise the first part of the death message
+# As the rest is the vanilla minecraft messages.
+customLeaveMessage: "has left the game!"
+
+# Write a message before the player name in the join message, leave blank to disable
+preMessageLeaveName: "&c"
+
+
+#---------------------------------
+#|                               |
+#|          Censoring            |
+#|                               |
+#---------------------------------
+# Censor specific words
+
+
+# Should EpicChat censor the words below?
+censorWords: true
+
+# Write the words you want to be censored in the brackets below, Use a comma (,) to separate words
+censoredWords: [censored, words, here]
+
+
+#---------------------------------
+#|                               |
+#|           Emojis              |
+#|                               |
+#---------------------------------
+# Use emoji reactions by typing specific characters.
+# Example: ':)'
+
+
+# Should EpicChat enable emojis?
+enableEmojis: true
+
+
+#---------------------------------
+#|                               |
+#|        Player Mentions        |
+#|                               |
+#---------------------------------
+# Notify your players if someone types their
+# username in the chat
+
+
+# Should EpicChat enable player mentions?
+enablePlayerMentions: true
+
+# Should a title be sent to the recieving player?
+sendMentionTitle: true
+
+
+
+# Attention!
+
+# If you see something that isn't here that you want to be added, join my discord at dsc.gg/arace863
